@@ -1,28 +1,13 @@
-# Examples
+# Examples — Red Dirt Hairy Legged Alabama Country Boy
 
-Rendered output of the Red Dirt Hairy Legged Alabama Country Boy website.
-
-## Screenshots
-
-### Full Page
-![Full Page Screenshot](screenshot-full.jpg)
-
-### Viewport (1920×1080)
-![Viewport Screenshot](screenshot-viewport.jpg)
-
-## Files
+Rendered screenshots of the live website captured with a headless browser.
 
 | File | Description |
 |------|-------------|
-| `screenshot-full.jpg` | Full-page render of the complete website |
-| `screenshot-viewport.jpg` | 1920×1080 viewport render |
-| `index.html` | Raw server-rendered HTML snapshot |
+| `desktop-full-page.jpg`  | Full-page render at 1280×900 (desktop) |
+| `desktop-viewport.jpg`   | Above-the-fold viewport at 1280×900 |
+| `mobile-full-page.jpg`   | Full-page render at 390×844 (iPhone 14 size) |
+| `tablet-full-page.jpg`   | Full-page render at 768×1024 (iPad size) |
+| `page-source.html`       | Rendered HTML source from the live dev server |
 
-## Live Preview
-
-Run the site locally:
-```bash
-npm install
-npm run dev
-```
-Then open [http://localhost:3000](http://localhost:3000).
+> Screenshots generated with Playwright / Chromium headless.
