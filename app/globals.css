@@ -7,7 +7,7 @@
   background-image: url('https://galaxy-prod.tlcdn.com/gen/user_32iu0LR0JG9yzl1GNBubQI22H0l/c16dac43-3efe-4d8c-99ea-cce3509f8566.png');
   background-size: cover;
   background-position: center top;
-  background-attachment: fixed;
+
 }
 
 /* ─── Content Cards ───────────────────────────────── */
@@ -25,7 +25,7 @@
 
 /* ─── Typography ──────────────────────────────────── */
 .section-heading {
-  font-family: var(--font-rye);
+  font-family: 'Rye', cursive;
   color: #d4a040;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
   letter-spacing: 0.04em;
@@ -39,7 +39,7 @@
 }
 
 .item-title {
-  font-family: var(--font-rye);
+  font-family: 'Rye', cursive;
   color: #c8922a;
   font-size: 0.95rem;
   letter-spacing: 0.03em;
@@ -103,7 +103,7 @@
   top: 50%;
   transform: translateY(-50%);
   color: #fdf0d5;
-  font-family: var(--font-rye);
+  font-family: 'Rye', cursive;
   font-size: 1.05rem;
   text-align: center;
   text-shadow:
