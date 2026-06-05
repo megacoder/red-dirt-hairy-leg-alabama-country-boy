@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Page Background ─────────────────────────────── */
+.page-bg {
+  background-image: url('https://galaxy-prod.tlcdn.com/gen/user_32iu0LR0JG9yzl1GNBubQI22H0l/c16dac43-3efe-4d8c-99ea-cce3509f8566.png');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* ─── Content Cards ───────────────────────────────── */
+.content-card {
+  background: rgba(18, 10, 3, 0.75);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(180, 120, 40, 0.35);
+  border-radius: 0.5rem;
+  padding: 1.75rem 2rem;
+  box-shadow:
+    0 6px 32px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 200, 100, 0.07);
+}
+
+/* ─── Typography ──────────────────────────────────── */
+.section-heading {
+  font-family: var(--font-rye);
+  color: #d4a040;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.04em;
+  line-height: 1.25;
+}
+
+.body-text {
+  color: #e0cba8;
+  font-size: 0.975rem;
+  line-height: 1.75;
+}
+
+.item-title {
+  font-family: var(--font-rye);
+  color: #c8922a;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+}
+
+.item-date {
+  color: #8a6a38;
+  font-size: 0.78rem;
+  margin-top: 0.15rem;
+  font-style: italic;
+}
+
+.holler-item {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(180, 120, 40, 0.18);
+}
+
+.holler-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* ─── Divider ─────────────────────────────────────── */
+.rope-divider {
+  border: none;
+  border-top: 1px solid rgba(180, 120, 40, 0.3);
+  margin: 1.25rem 0;
+}
+
+/* ─── Shell Buttons ───────────────────────────────── */
+.shell-btn {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  height: 102px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.12s ease, filter 0.12s ease;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.shell-btn:hover {
+  transform: scale(1.06) translateY(-3px);
+  filter: brightness(1.1) drop-shadow(0 6px 12px rgba(0,0,0,0.5));
+}
+
+.shell-btn:active {
+  transform: scale(0.97) translateY(1px);
+  filter: brightness(0.88);
+}
+
+.btn-label {
+  position: absolute;
+  left: 33%;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fdf0d5;
+  font-family: var(--font-rye);
+  font-size: 1.05rem;
+  text-align: center;
+  text-shadow:
+    1px 1px 0 rgba(0, 0, 0, 1),
+    2px 2px 4px rgba(0, 0, 0, 0.85),
+    0 0 14px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  letter-spacing: 0.1em;
+  user-select: none;
+}
+
+/* ─── Responsive ──────────────────────────────────── */
+@media (max-width: 640px) {
+  .shell-btn {
+    width: 200px;
+    height: 73px;
+  }
+  .btn-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+  }
+  .content-card {
+    padding: 1.25rem;
+  }
+}
