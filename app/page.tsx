@@ -6,7 +6,7 @@ import Image from 'next/image'
 const CDN = 'https://galaxy-prod.tlcdn.com/gen/user_32iu0LR0JG9yzl1GNBubQI22H0l'
 
 const ASSETS = {
-  header: `${CDN}/9375521d-d4f1-428c-abf5-c91fe3831528.png`,
+  header: `${CDN}/d5b54a94-a990-41ac-9ee4-141e06a5503d.png`,
   icon:   `${CDN}/972701ea-b5d9-48b3-929f-aba278d1da59.png`,
 }
 
@@ -69,7 +69,7 @@ export default function HomePage() {
       <header className="w-full shrink-0 shadow-2xl">
         <Image
           src={ASSETS.header}
-          alt="Red Dirt Hairy Legged Alabama Country Boy"
+          alt="Red Dirt Hairy Leg Alabama Country Boy"
           width={3072}
           height={1024}
           className="w-full h-auto block"
@@ -110,7 +110,7 @@ export default function HomePage() {
             <hr className="rope-divider" />
 
             <p className="body-text">
-              This here&apos;s the home base of the Red Dirt Hairy Legged Alabama Country Boy —
+              This here&apos;s the home base of the Red Dirt Hairy Leg Alabama Country Boy —
               born and raised on red clay roads, fed right on Southern cookin&apos;, and prouder than
               a banty rooster about every last bit of it. Whether you&apos;re here for the stories,
               the recipes, the hunting and fishing, or just to see what a real country boy looks like —
@@ -160,7 +160,7 @@ export default function HomePage() {
           <ShellButton label="Help" />
         </div>
         <p className="text-center mt-5 text-amber-900/60 text-xs font-light tracking-widest uppercase">
-          © 2025 Red Dirt Hairy Legged Alabama Country Boy · All Rights Reserved
+          © 2025 Red Dirt Hairy Leg Alabama Country Boy · All Rights Reserved
         </p>
       </footer>
 
